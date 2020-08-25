@@ -1,0 +1,19 @@
+.footer-default {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #000000;
+    font-family: "Trebuchet MS";
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.footer-default > span {
+    color: #1698d9 ;
+}
+.footer-default__dashed {
+    cursor: pointer;
+    color: #1698d9;
+    border-bottom: 1px dashed #1698d9
+}

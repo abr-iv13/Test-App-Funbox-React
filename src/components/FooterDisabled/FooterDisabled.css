@@ -1,0 +1,11 @@
+.footer-disabled {
+    margin-top: 20px;
+    text-align: center;
+    white-space: nowrap;
+    text-shadow: 0 1px 0 #000000;
+    color: #ffff66;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}

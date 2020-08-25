@@ -1,0 +1,124 @@
+.block {
+    width: 320px;
+    height: 480px;
+    background-color: #f2f2f2;
+    border: 4px solid #2ea8e6;
+    border-radius: 10px;
+    position: relative;
+    margin: 40px;
+    text-align: left;
+    font-family: "Trebuchet MS";
+}
+
+.block__description {
+    color: #000000;
+    padding: 17px 0px 0px 45px;
+    line-height: 0px;
+}
+.description-before {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description-title {
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.description-after {
+    font-size: 24px;
+    font-weight: 700;
+}
+.description-portions {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.block__weight {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 378px;
+    left: 225px;;
+    text-align: center;
+    content: "";
+    color: #ffffff;
+    background-color: #1698d9;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.block__weight > p {
+    font-size: 21px;
+    line-height: 22px;
+}
+.block__weight > p > span {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.block > img {
+    position: relative;
+    top: 8px;
+}
+.block__footer {
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    top: 36px;
+    right: 30px;
+
+    text-shadow: 0 1px 0 #000000;
+    color: #ffffff;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.block__footer > span {
+    color: #1698d9 ;
+}
+.footer__dashed {
+    cursor: pointer;
+    color: #1698d9;
+    border-bottom: 1px dashed #1698d9
+}
+
+/* ================ active ================ */
+.active  {
+    border: 4px solid #d91667;
+}
+.active .block__weight {
+    background-color: #d91667;
+}
+/* //////////////// active //////////////// */
+
+
+
+/* ================ disabled ================ */
+.disabled{
+    border: 4px solid #b3b3b3;
+}
+.disabled .block__description {
+    opacity:  0.5;
+}
+.disabled .block__weight{
+    background-color: #b3b3b3;
+}
+
+.disabled > img{
+    opacity: 0.5;
+}
+/* //////////////// disabled //////////////// */
+
+
+
+@media (max-width: 768px) {
+  .block {
+      margin: 70px 0px 0px 0px;
+  }
+}
+

@@ -1,0 +1,30 @@
+html {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(Pattern.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (max-width: 1024px) {
+  .container {
+      flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
